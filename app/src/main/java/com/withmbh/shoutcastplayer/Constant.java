@@ -13,7 +13,7 @@ public interface Constant {
     String ORDER_AFTER_TODAY = "after_today";
     String ORDER_DATE_DESC = "date_desc";
 
-
+    String streamURL = "";
 
 
 }

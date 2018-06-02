@@ -17,6 +17,9 @@ public class MyApp extends Application {
     private SchdulInfoItem schdulInfoItem;
     private UserInfoItem userInfoItem;
 
+    private String streamURL = "";
+
+
 
 
     @Override
@@ -63,5 +66,14 @@ public class MyApp extends Application {
     }
     public void setUserInfoItem(UserInfoItem userInfoItem) {
         this.userInfoItem = userInfoItem;
+    }
+
+
+    public String getStreamURL() {
+        if (streamURL == null) streamURL = new String();
+        return streamURL;
+    }
+    public void setStreamURL(String streamURL) {
+        this.streamURL = streamURL;
     }
 }

@@ -13,4 +13,7 @@
 
     <color name="bg_default">#88EEEEEE</color>
     <color name="bg_white">#FFFFFF</color>
+
+    <color name="bt_accent">#00B8D4</color>
+
 </resources>

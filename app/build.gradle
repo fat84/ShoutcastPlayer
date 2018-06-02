@@ -9,6 +9,11 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
     buildTypes {
         release {
@@ -47,4 +52,12 @@ dependencies {
 
     implementation 'com.wdullaer:materialdatetimepicker:3.6.0'
     implementation 'com.github.sundeepk:compact-calendar-view:2.0.2.3'
+
+    implementation 'com.jakewharton:butterknife:8.6.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.6.0'
+
+    implementation 'com.google.android.exoplayer:exoplayer:2.6.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.7.0'
+    implementation 'com.github.mattias-karlsson:exoplayer-shoutcast:1.0.0'
+    implementation 'org.greenrobot:eventbus:3.0.0'
 }

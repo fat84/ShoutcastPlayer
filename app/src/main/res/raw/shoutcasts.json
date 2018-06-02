@@ -1,0 +1,34 @@
+[
+  {
+    "name" : "http://god.inlive.co.kr:2848/",
+    "stream" : "http://god.inlive.co.kr:2848/"
+  },
+  {
+    "name": "http://sc11.saycast.com:8124/",
+    "stream": "http://sc11.saycast.com:8124/"
+  },
+  {
+    "name": "http://opencast.kr:9100/",
+    "stream": "http://opencast.kr:9100/"
+  },
+  {
+    "name": "BBC - Radio 4",
+    "stream": "http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4fm_mf_p"
+  },
+  {
+    "name": "BBC - Radio 5 live",
+    "stream": "http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio5live_mf_p"
+  },
+  {
+    "name": "BBC - Radio 6",
+    "stream": "http://bbcmedia.ic.llnwd.net/stream/bbcmedia_6music_mf_p"
+  },
+  {
+    "name": "BBC Radio Asian Network",
+    "stream": "http://bbcmedia.ic.llnwd.net/stream/bbcmedia_asianet_mf_p"
+  },
+  {
+    "name" : "BBC World Service",
+    "stream" : "http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk"
+  }
+]
